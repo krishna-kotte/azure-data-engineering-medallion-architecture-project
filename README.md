@@ -271,19 +271,18 @@ The `_delta_log` directory maintains the complete transaction history of every t
 │   └── publish_config.json
 │
 ├── Databricks
-│   ├── Bronze_to_Silver.py
-│   ├── Lookup_to_Silver.py
-│   └── Silver_to_Gold.py
+│   ├── Bronze_to_Silver_Trips.dbc
+│   ├── Bronze_to_Silver_ZoneLookup.dbc
+│   └── Silver_to_Gold.dbc
 │
 ├── Architecture
 │   └── architecture.png
 │
 ├── Screenshots
-│   ├── pipeline_success.png
-│   ├── bronze_layer.png
-│   ├── silver_layer.png
-│   ├── gold_layer.png
-│   └── databricks.png
+│   ├── ForEach.png
+│   ├── Pipeline Success.png
+│   ├── Taxi Data Ingestion Pipeline.png
+│   ├── Taxi Lookup Ingestion Pipeline.png
 │
 └── README.md
 ```
