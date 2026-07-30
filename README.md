@@ -346,7 +346,8 @@ GitHub:
 https://github.com/krishna-kotte
 
 LinkedIn:
-(Add your LinkedIn profile)
+www.linkedin.com/in/krishna-kotte
+
 
 ---
 
