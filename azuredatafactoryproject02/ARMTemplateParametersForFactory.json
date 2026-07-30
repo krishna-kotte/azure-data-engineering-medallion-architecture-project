@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredatafactoryproject02"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azureprojectdl1.dfs.core.windows.net/"
+		},
+		"AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "0728-123519-dda1kf36"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://secretIDKeyVault.vault.azure.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "TEJASRIKOTTE\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "Metadata_Increment"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "tejasri.kotte@outlook.com"
+		}
+	}
+}
