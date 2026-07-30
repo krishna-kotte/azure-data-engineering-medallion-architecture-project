@@ -1,0 +1,30 @@
+{
+	"name": "lookup_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Azure Taxi Project"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "last_load.json",
+				"fileSystem": "watermark"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"last_processed_time": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
