@@ -1,7 +1,7 @@
 # End-to-End Azure Data Engineering Pipeline using Azure, Databricks & Delta Lake
 
 <p align="center">
-    <img src="Architecture/architecture.png" alt="Project Architecture" width="100%">
+    <img src="Architecture/Architecture.png" alt="Project Architecture" width="100%">
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ The solution follows modern cloud data engineering practices, including:
 # Architecture
 
 <p align="center">
-    <img src="Architecture/architecture.png" alt="Architecture Diagram" width="100%">
+    <img src="Architecture/Architecture.png" alt="Architecture Diagram" width="100%">
 </p>
 
 ```
